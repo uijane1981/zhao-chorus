@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>照小合唱團 - 學生上傳</title>
+</head>
+<body>
+    <h2>🎤 照小合唱團 - 音檔上傳</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        姓名：<input type="text" name="name" required><br><br>
+        選擇音檔：<input type="file" name="file" accept=".mp3,.wav,.m4a" required><br><br>
+        <input type="submit" value="上傳">
+    </form>
+</body>
+</html>
