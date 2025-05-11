@@ -36,4 +36,4 @@ if uploaded_file and student_name:
 
 elif student_name and not uploaded_file:
     st.warning("請選擇一個音檔上傳")
-delete old app.py
+
